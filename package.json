@@ -1,0 +1,26 @@
+{
+  "name": "easytodo-api",
+  "version": "1.0.0",
+  "description": "My Fastify.js API",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "build": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fastify": "^4.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "nodemonConfig": {
+    "ignore": [
+      "**/test/**",
+      "**/docs/**"
+    ],
+    "delay": 2500
+  }
+}
